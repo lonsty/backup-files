@@ -11,6 +11,41 @@
 - Papirus (github)
 
 # sublime
+settings
+```
+{
+	"always_show_minimap_viewport": true,
+	"bold_folder_labels": true,
+	"color_scheme": "Packages/Material Theme/schemes/Material-Theme-Darker.tmTheme",
+	"font_options":
+	[
+		"no_italic",
+		"gray_antialias",
+		"subpixel_antialias"
+	],
+	"font_size": 12.5,
+	"ignored_packages":
+	[
+		"Markdown",
+		"Vintage"
+	],
+	"indent_guide_options":
+	[
+		"draw_normal",
+		"draw_active"
+	],
+	"overlay_scroll_bars": "enabled",
+	"save_on_focus_lost": true,
+	"theme": "Material-Theme-Darker.sublime-theme",
+	"translate_tabs_to_spaces": true,
+	"material_theme_accent_yellow": true,
+	"material_theme_bright_scrollbars": true,
+	"material_theme_compact_panel": true,
+	"material_theme_contrast_mode": false,
+	"material_theme_panel_separator": true,
+}
+
+```
 
 1. side bar 美化
     - boxy theme
