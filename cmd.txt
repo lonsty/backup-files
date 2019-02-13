@@ -1,0 +1,390 @@
+    1  ifconfig
+    2  sud
+    3  sudo apt install ubuntu-desktop
+    4  sudo ubuntu-drivers autoinstall
+    5  sudo apt update
+    6  sudo apt upgrade
+    7  sudo ubuntu-drivers autoinstall
+    8  reboot
+    9  cd /etc/apt/
+   10  ll
+   11  sudo cp sources.list sources.list.bak
+   12  sudo scp allen@10.161.32.162:/home/allen/workspace/sources.list ./
+   13  sudo vi sources.list
+   14  cd ~/
+   15  mkdir Downloads
+   16  ll
+   17  cd Downloads/
+   18  sudo vi /etc/environment 
+   19  source /etc/environment 
+   20  scp -r allen@10.161.32.162:/home/allen/Downloads/kernal/kernal4.15.18 ./
+   21  ll
+   22  cd kernal4.15.18/
+   23  ll
+   24  sudo dpkg -i *.deb
+   25  sudo update-grub
+   26  sudo ubuntu-drivers autoinstall
+   27  sudo apt update
+   28  unset http_proxy
+   29  unset https_proxy
+   30  sudo apt update
+   31  export
+   32  sudo vi /etc/environment 
+   33  source /etc/environment 
+   34  sudo apt update
+   35  ping 10.161.32.162
+   36  sudo apt update
+   37  source /etc/environment 
+   38  sudo apt update
+   39  sudo apt updaate
+   40  sudo apt update
+   41  nmon
+   42  sudo apt update
+   43  sudo apt install nmon
+   44  cd /etc/systemd/system/network-online.target.wants/
+   45  ll
+   46  sudo vi NetworkManager-wait-online.service 
+   47  sudo vi /lib/systemd/system/NetworkManager-wait-online.service 
+   48  sudo vi networking.service 
+   49  cd ~/
+   50  sudo add-apt-repository ppa:papirus/papirus
+   51  sudo apt update
+   52  sudo apt install papirus-icon-theme 
+   53  cd Downloads/
+   54  ll
+   55  sudo dpkg -i sogoupinyin_2.2.0.0108_amd64.deb 
+   56  sudo apt install fcitx
+   57  sudo apt -f install
+   58  sudo apt install fcitx
+   59  sudo dpkg -i sogoupinyin_2.2.0.0108_amd64.deb 
+   60  nmon
+   61  sudo apt-cache search gnome
+   62  sudo apt-cache search gnome3
+   63  sudo apt-cache search gnome-3
+   64  sudo add-apt-repository ppa:gnome3-team/gnome3
+   65  sudo add-apt-repository ppa:gnome3-team/gnome3-staging
+   66  sudo apt update
+   67  sudo apt dist-upgrade 
+   68  sudo apt install gnome
+   69  sudo apt install gnome gnome-shell
+   70  sudo apt updte
+   71  sudo apt update
+   72  sudo apt upgrade
+   73  sudo apt update
+   74  sudo apt upgrade
+   75  sudo apt remove nvidia-384
+   76  sudo apt install nvidia-384 --update
+   77  sudo apt -f install 
+   78  dpkg: error processing package nvidia-384 (--configure):
+   79  Errors were encountered while processing:
+   80  E: Sub-process /usr/bin/dpkg returned an error code (1)
+   81  sudo apt-get remove --purge nvidia-384
+   82  sudo dpkg --configure -a
+   83  sudo apt-get install -f nvidia-384
+   84  cd /usr/bin/dpkg
+   85  cd /var/lib/dpkg/
+   86  ll
+   87  cd info/
+   88  ll
+   89  ll | grep nvi
+   90  sudo mv nvidia-384.list /tmp/
+   91  ll | grep nvidia
+   92  sudo mv nvidia-opencl-icd-384.list /tmp/
+   93  sudo apt update
+   94  sudo apt upgrade
+   95  sudo /usr/bin/nvidia-uninstall
+   96  sudo apt-get remove --purge nvidia-*
+   97  sudo vi /etc/environment 
+   98  source /etc/environment 
+   99  sudo apt update
+  100  export
+  101  sudo vi /etc/environment 
+  102  export http_proxy="http://F1054631:kz29QRBZ@10.14.193.57:3128/"
+  103  export https_proxy="https://F1054631:kz29QRBZ@10.14.193.57:3128/"
+  104  sudo apt update
+  105  source /etc/environment 
+  106  export
+  107  sudo apt update
+  108  sudo apt install nvidia-384
+  109  sudo update
+  110  sudo apt update
+  111  sudo apt install --reinstall nvidia-384
+  112  sudo apt install nvidia-384
+  113  rebboot
+  114  reboot
+  115  nmon
+  116  sudo apt update
+  117  sudo apt upgrade
+  118  sudo ubuntu-drivers autoinstall
+  119  sudo apt install gnome gnome-shell
+  120  gnome -V
+  121  uname
+  122  uname -a
+  123  sudo vi /etc/mdadm/mdadm.conf 
+  124  sudo gedit /etc/mdadm/mdadm.conf 
+  125  reboot
+  126  ./Install
+  127  git clone https://github.com/vinceliuice/Qogir-theme
+  128  ll
+  129  sudo rm CloudMusic/
+  130  sudo rm -r CloudMusic/
+  131  sudo apt update
+  132  sudo add-apt-repository ppa:daniruiz/flat-remix
+  133  sudo apt update
+  134  sudo apt install flat-remix-gtk 
+  135  cd Downloads/
+  136  ll
+  137  sudo dpkg -i netease-cloud-music_1.1.0_amd64_ubuntu.deb 
+  138  sudo apt -f install
+  139  sudo dpkg -i netease-cloud-music_1.1.0_amd64_ubuntu.deb 
+  140  netease-cloud-music 
+  141  sudo netease-cloud-music 
+  142  cd /usr/share/application/
+  143  cd /usr/share/applications/
+  144  ll
+  145  sudo vi netease-cloud-music.desktop 
+  146  netease-cloud-music 
+  147  sudo vi netease-cloud-music.desktop 
+  148  netease-cloud-music 
+  149  sudo vi netease-cloud-music.desktop 
+  150  sudo vi /etc/sudoers
+  151  netease-cloud-music 
+  152  sudo vi /etc/sudoers
+  153  sudo vi netease-cloud-music.desktop 
+  154  netease-cloud-music 
+  155  ll
+  156  cd .themes/
+  157  ll
+  158  cd ~/Downloads/
+  159  ll
+  160  cd gnome-themes/
+  161  ll
+  162  cp . ~/.themes/
+  163  cp -r . ~/.themes/
+  164  cd ~/.themes/
+  165  ll
+  166  ./Install 
+  167  sudo vi /usr/share/applications/netease-cloud-music.desktop 
+  168  cd ~/.cache/netease-cloud-music/
+  169  ..
+  170  ll
+  171  cd ..
+  172  ll
+  173  sudo vi /usr/share/applications/netease-cloud-music.desktop 
+  174  sudo apt install --reinstall netease-cloud-music 
+  175  sudo apt remove netease-cloud-music 
+  176  sudo apt-cache search netease
+  177  cd ~/Downloads/
+  178  ll
+  179  dpkg -i netease-cloud-music_1.1.0_amd64_ubuntu.deb 
+  180  sudo dpkg -i netease-cloud-music_1.1.0_amd64_ubuntu.deb 
+  181  cd ~/.local/share/applications/
+  182  ll
+  183  sudo vi /usr/share/applications/netease-cloud-music.desktop 
+  184  dpkg -L netease-cloud-music|grep desktop 
+  185  export
+  186  sudo vi /etc/environment 
+  187  source /etc/environment 
+  188  sudo vi /etc/environment 
+  189  source /etc/environment 
+  190  netease-cloud-music 
+  191  sudo vi /etc/environment 
+  192  source /etc/environment 
+  193  sudo vi /usr/share/applications/netease-cloud-music.desktop
+  194  netease-cloud-music 
+  195  sudo netease-cloud-music 
+  196  netease-cloud-music 
+  197  sudo vi /usr/share/applications/netease-cloud-music.desktop
+  198  unset SESSION_MANAGER && netease-cloud-music
+  199  ll
+  200  wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-key add - 
+  201  sudo apt update
+  202  wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-key add - 
+  203  ll
+  204  sudo sh -c 'echo "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main" >> /etc/apt/sources.list.d/google.list'
+  205  sudo apt-get update 
+  206  sudo apt-get install google-chrome-stable 
+  207  wget -qO - https://download.sublimetext.com/sublimehq-pub.gpg | sudo apt-key add -
+  208  sudo apt update
+  209  wget -qO - https://download.sublimetext.com/sublimehq-pub.gpg | sudo apt-key add -
+  210  sudo apt-get install apt-transport-https
+  211  echo "deb https://download.sublimetext.com/ apt/stable/" | sudo tee /etc/apt/sources.list.d/sublime-text.list
+  212  sudo apt update
+  213  cd /etc/apt/sources.list.d/
+  214  ll
+  215  sudo vi google.list 
+  216  sudo apt update
+  217  sudo apt-get install sublime-text
+  218  subl
+  219  sudo vi /etc/hosts
+  220  sudo vi /etc/apt/apt.conf
+  221  sudo vi /etc/environment 
+  222  source /etc/environment 
+  223  sudo apt update
+  224  sudo add-apt-repository ppa:wiznote-team
+  225  sudo apt update
+  226  sudo apt-get install wiznote
+  227  wiznote
+  228  sudo apt-cache search vlc
+  229  sudo apt install vlc
+  230  cd ~/Downloads/
+  231  git clone https://github.com/varlesh/VLC-Arc-Dark.git
+  232  sudo apt update
+  233  sudo vi /etc/environment 
+  234  sudo apt update
+  235  git clone https://github.com/varlesh/VLC-Arc-Dark.git
+  236  cd VLC-Arc-Dark/
+  237  ll
+  238  sudo make install
+  239  yaourt -S vlc-arc-dark-git
+  240  cd ~/.local/share/vlc/
+  241  ll
+  242  mkdir skins2
+  243  cd ~/Downloads/
+  244  ll
+  245  cd VLC-Arc-Dark/
+  246  ll
+  247  cp *.vlt ~/.local/share/vlc/skins2/
+  248  cd ..
+  249  ll
+  250  tar --help
+  251  ll
+  252  unzip skyfire_vlc_skin_by_rasvob-d7k6xkq.zip 
+  253  ll
+  254  mv skyfire_v120.vlt ~/.local/share/vlc/skins2/
+  255  ll
+  256  sudo apt install unrar
+  257  mv MinimalX_VLC_3.0.0.vlt ~/.local/share/vlc/skins2/
+  258  sudo add-apt-repository ppa:shutter/ppa
+  259  sudo apt-get update
+  260  sudo add-apt-repository ppa:shutter/ppa
+  261  sudo apt-get update
+  262  sudo apt update
+  263  sudo apt install shutter
+  264  sudo add-apt-repository --remove  ppa:shutter/ppa
+  265  sudo apt update
+  266  history
+  267  history | grep ppa
+  268  sudo add-apt-repository ppa:papirus/papirus
+  269  sudo add-apt-repository --remove ppa:papirus/papirus
+  270  sudo add-apt-repository --remove ppa:wiznote-team
+  271  sudo apt update
+  272  sudo apt install steam-installer
+  273  sudo apt update
+  274  cd /etc/apt/
+  275  ll
+  276  cd sources.list.d/
+  277  ll
+  278  cd ~/
+  279  cd Downloads/
+  280  ll
+  281  sudo dpkg -i XMind-ZEN-for-Linux-64bit.deb 
+  282  sudo apt update
+  283  nmon
+  284  cd /sys/devices/platform/
+  285  ll
+  286  xset -led 3
+  287  xset --help
+  288  sudo apt update
+  289  sudo mkdir /bak
+  290  cd .
+  291  cd ./
+  292  cd 
+  293  ll
+  294  cd /
+  295  ll
+  296  sudo -i
+  297  cd bak
+  298  ll
+  299  cd ..
+  300  cd /var/lib/apt/lists/
+  301  ll
+  302  cd partial/
+  303  ll
+  304  cd partial/
+  305  sudo cd partial/
+  306  ll
+  307  sudo -i
+  308  sudo apt update
+  309  sudo apt upgrade
+  310  sudo apt install steam-installer
+  311  sudo apt-get install git build-essential linux-source
+  312  cd ~/Downloads/
+  313  ll
+  314  git clone https://github.com/ejcosta/clevo-keyboard-backlight
+  315  cd clevo-keyboard-backlight/
+  316  cd driver/
+  317  ll
+  318  sudo ./install.sh 
+  319  sudo su -c 'echo "1" > kb_off'
+  320  cd /sys/module/tuxedo_wmi/parameters/
+  321  ll
+  322  sudo su -c 'echo "1" > kb_off'
+  323  sudo su -c 'echo "1" > kb_brightness'
+  324  cd /etc/apt/
+  325  ll
+  326  sudo cp -r sources.list.d/ sources.list.d.bak
+  327  ll
+  328  cd sources.list.d
+  329  ll
+  330  sudo rm .
+  331  sudo rm  *
+  332  ll
+  333  cd ..
+  334  ll
+  335  cd /bak
+  336  ll
+  337  sudo mkdir var-lib-apt-lists-partial
+  338  ll
+  339  sudo vi /etc/systemd/system.conf
+  340  systemctl daemon-reload 
+  341  uname -a
+  342  timedatectl
+  343  timedatectl set-local-rtc 1 --adjust-system-clock
+  344  timedatectl
+  345  ll /etc/ | ntp
+  346  ll /etc/ | grep ntp
+  347  sudo vi /etc/systemd/timesyncd.conf 
+  348  sudo /etc/network/interfaces
+  349  shutdown now
+  350  sudo apt update
+  351  sudo ubuntu-drivers autoinstall
+  352  dpkg --configure -a & (sleep 2m; killall systemctl)
+  353  sudo dpkg --configure -a & (sleep 2m; killall systemctl)
+  354  reboot
+  355  timedatectl set-local-rtc 0 --adjust-system-clock
+  356  timedatectl
+  357  sudo vi /etc/systemd/timesyncd.conf 
+  358  timedatectl
+  359  reboot
+  360  sudo apt update
+  361  sudo apt -f install
+  362  sudo ubuntu-drivers autoinstall
+  363  cd /bak
+  364  ll
+  365  cd /var/lib/apt/lists/partial/
+  366  ll
+  367  cd /var/lib/apt/lists/partial/
+  368  sudo cd /var/lib/apt/lists/partial/
+  369  sudo ll /var/lib/apt/lists/partial/
+  370  sudo -i
+  371  sudo apt update
+  372  sudo apt upgrade
+  373  sudo vi /etc/default/grub
+  374  cd /etc/apt/
+  375  ll
+  376  cd sources.list.d
+  377  ll
+  378  cd ../sources.list.d.bak/
+  379  ll
+  380  sudo cp * /etc/apt/sources.list.d
+  381  cd ..
+  382  cd sources.list.d
+  383  ll
+  384  sudo apt update
+  385  sudo apt upgrade
+  386  shutdown now
+  387  history 
+  388  mkdir workspace
+  389  cd workspace/
+  390  history > cmd.txt
